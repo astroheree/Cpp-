@@ -17,7 +17,6 @@ void all_permu_string(int arr[] , int n, int ind)
         all_permu_string(arr,n,ind+1);
         swap(arr[ind],arr[i]);
     }
-
 }
 
 int main()
