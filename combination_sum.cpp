@@ -22,8 +22,6 @@ void combinationSum(int i , int arr[] , int n , int t , vector<int> ds)
         ds.pop_back();
     }
     combinationSum(i+1,arr,n,t,ds);
-    
-    
 }
 
 int main()
